@@ -9,9 +9,6 @@ const feedbackService = new FeedbackService('./data/feedback.json');
 const speakersService = new SpeakersService('./data/speakers.json');
 
 const routes = require('./routes');
-const { request } = require('http');git a
-
-// const response = require('express');
 
 const app = express();
 
