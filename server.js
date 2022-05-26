@@ -44,7 +44,7 @@ app.use(async (request, response, next) => {
     return next();
   // eslint-disable-next-line no-empty
   } catch (error) {
-      
+    console.log(error)  
   }
 });
 
