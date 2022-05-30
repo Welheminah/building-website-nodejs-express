@@ -13,6 +13,13 @@
     })(window, document, 'script', 'dataLayer', 'GTM-TWSBWJX');</script>
   <!-- End Google Tag Manager -->
 
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      'event': 'userData',
+    })
+  </script>
+
   <title>
     <%= siteName %> | <%= pageTitle %>
   </title>
@@ -24,12 +31,7 @@
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=block" rel="stylesheet" />
 
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    dataLayer.push({
-      'event': 'page.load',
-    })
-  </script>
+
 </head>
 
 <body>
